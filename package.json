@@ -1,0 +1,26 @@
+{
+  "name": "codespace-chatbot",
+  "version": "1.0.0",
+  "description": "Local AI-like chatbot with emotion and DNA-playback simulation — Codespace ready",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"node server.js\" \"vite --port 3000\"",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "vite": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^5.0.0"
+  }
+}
